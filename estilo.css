@@ -238,9 +238,11 @@ html, body{
         }
         #grafico{
             height: 0;
+            visibility: hidden;
         }
         header{
             height:30px;
+            visibility: hidden;
         }
         footer{
             padding: 0;
