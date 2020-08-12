@@ -212,7 +212,13 @@ html, body{
         position: relative;
         width: 30%;
     }
-    @media all and (max-Width: 768px){
+    @media all and (max-Width: 768px)
+    { 
+        :root{
+            width: 100%;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
         #menu{
             visibility: hidden;
         }
