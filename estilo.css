@@ -1,0 +1,235 @@
+html, body{
+    margin: 0;
+}
+    header{
+        background-color:black;
+        height: 60px;
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+    }
+    h1{
+        color: #a80c0c;
+        font-size: 30px;
+    }
+    header #logo{
+        width: 5%;
+        height: 100%;
+        position: absolute; 
+        top:0px; 
+        margin-left: 5%;
+    }
+    #logo:hover{
+        background-color:#a80c0c;
+        border-radius: 10px; 
+    }
+    header #menu{
+        float: right;
+        margin-right: 5%;
+        list-style: none;
+        margin-top: 0%;   
+    }
+    header #menu li{
+        float: left;
+        font-size: 18px;
+        padding: 20 10 20 10;      
+    }
+    header #menu li a{
+        color: initial;
+        text-decoration: initial;
+        color:white;
+    }
+    .menu:hover{
+        background-color:#a80c0c;
+        color: white;
+        border-radius: 10px ;
+        font-size: initial;
+    }
+    #capa{
+        width: 100%;
+        background: url(IMAGEM/E.DU.CA.ÇÃO.png);
+        background-size:100% 100%;
+        height: 100%;
+    }
+    #titulo{
+        text-align: center;
+        letter-spacing: 5px; 
+        font-size: 50px;
+        padding-top: 5%;
+    }
+    #subtitulo1{ 
+        text-align: left;
+        font-style: italic;
+        font-size: 16pt;
+        padding-left: 10%;
+        padding-bottom: 1%;
+    }
+    .subtitulo2{
+        text-align:left;
+        padding-left: 12%;
+        padding-right: 12%;
+        font-size: 20pt;
+    }
+    .destaque{
+        background-color:rgba(248, 17, 17, 0.103);
+        float: left;
+        padding: 5%;
+    }
+    #ação{
+        color: white;
+        background-color:#a80c0c;
+        padding: 2% 5%;
+        margin-left: 37%;
+        text-decoration: initial;
+        border-radius: 10px;
+    }
+    .centralizado{
+        text-align:center;
+    }
+    .justificado{
+        text-align:justify;
+    }
+    .coluna{
+        float: left;
+        padding:0 5%;
+        position: relative;
+        width: 40%;
+    }
+    #ods4{ 
+        padding-bottom: 5%;
+        background-size:100% 100%;
+        height: 40%;
+        width: 100%;
+    }
+    .icone{ 
+        width: 15%;
+        height: 10%;
+        padding: 2%;
+        margin-left:35%;
+        margin-right:35%;
+    }
+    .icone:hover{
+        background-color:#a80c0c;
+        border-radius:10px;
+    }
+    .nãodestaque{
+        float: left;
+        padding: 0;
+    }
+    .cincocolunas{
+        float: left;
+        padding:2% 10% 0 10%;
+        position: relative;
+        width: 30%;
+    }
+    #grafico{
+        padding:2% 20% 2% 20%;
+        height: 60%;
+        width:60%;
+    }
+    .texto{
+        padding:25% 5% 0% 0;
+    }
+    .coluna2{
+        float: left;
+        position: relative;
+        width: 15%;
+        border: 3px solid #a80c0c;
+        margin:2% 0 2% 7%;
+        padding-bottom: 1%;
+        border-radius: 15px;  
+    }
+    #cursos{
+        padding-top: 5%;
+        padding-bottom: 8%;
+    }
+    .botão{
+        color: initial;
+        text-decoration: initial;
+        color:#a80c0c;
+        padding: 0 2%;
+        border: 1px solid #a80c0c;
+        margin-left: 31%;
+        border-radius: 10px;
+    }
+    .botão:hover{
+        background-color:#a80c0c;
+        color:white;
+        font-size: 20px;
+    }
+    #ja{
+        padding-left:8%;
+        width: 80%;  
+    }
+    #nej{
+        width: 80%;
+        padding-top:2%;
+        padding-bottom: 3%;
+        padding-left:8%; 
+    }
+    #senac{
+        width:70%;
+        padding-left:12%;
+        height:8.5%;
+    }
+    #valores{
+        width: 50%;
+        padding-left:23%;
+        height:11.5%; 
+    }
+    #foto{
+        padding-top: 7%;
+        width: 100%;
+        height: 50%;
+    }
+    footer{
+        background-color: #a80c0c;
+        float: left;
+        width: 100%;
+        color: white;
+        padding-left: 5%;
+        padding-bottom: 0;
+        padding-right: 5%;
+    }
+    .iconerodape{
+        height:6%;
+        padding-left: 8%;
+        padding-right: 2%;
+        padding-top: 0;
+    }
+    .contato{
+        text-decoration: initial;
+        color: initial;
+        color: white;
+    }
+    .coluna3{
+        float: left;
+        position: relative;
+        width: 30%;
+    }
+    @media all and (max-Width: 768px){
+        #menu{
+            visibility: hidden;
+        }
+        .coluna, .coluna2, .coluna3, .cincocolunas{
+            display: block;
+            width: 80%;
+            padding: 0;
+            margin: 10px auto;
+            float: none;
+        }
+        #capa{
+            height:40%;
+            width: 100%;
+        }
+        header{
+            height:30px;
+        }
+        footer{
+        padding-left: 2%;
+        }
+        .iconerodape {
+            padding-left:20%;
+            height: 3%;
+        }
+    }
