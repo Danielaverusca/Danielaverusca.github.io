@@ -192,7 +192,7 @@ html, body{
         float: left;
         width: 100%;
         color: white;
-        padding-left: 5%;
+        padding-left: 0%;
         padding-bottom: 0;
         padding-right: 5%;
     }
@@ -212,7 +212,7 @@ html, body{
         position: relative;
         width: 30%;
     }
-    @media all and (max-Width: 768px)
+    @media all and (max-Width:768px)
     { 
         :root{
             width: 100%;
@@ -234,7 +234,7 @@ html, body{
             width: 100%;
         }
         #ods4{
-            height:10%;
+            height:5%;
             width: 100%;
         }
         #grafico{
@@ -244,10 +244,10 @@ html, body{
             height:30px;
         }
         footer{
-        padding: 0;
+            padding: 0;
         }
         .iconerodape {
             padding-left:20%;
             height: 3%;
         } 
-    }
+}    
