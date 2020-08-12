@@ -235,6 +235,7 @@ html, body{
         }
         #ods4{
             height:0%;
+            visibility: hidden;
         }
         #grafico{
             height: 0;
@@ -242,7 +243,6 @@ html, body{
         }
         header{
             height:30px;
-            visibility: hidden;
         }
         footer{
             padding: 0;
