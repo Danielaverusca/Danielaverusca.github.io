@@ -233,14 +233,21 @@ html, body{
             height:40%;
             width: 100%;
         }
+        #ods4{
+            height:10%;
+            width: 100%;
+        }
+        #grafico{
+            height: 0;
+        }
         header{
             height:30px;
         }
         footer{
-        padding-left: 2%;
+        padding: 0;
         }
         .iconerodape {
             padding-left:20%;
             height: 3%;
-        }
+        } 
     }
